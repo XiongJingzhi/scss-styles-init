@@ -3256,7 +3256,7 @@ glob-stream@^3.1.5:
   dependencies:
     glob "^4.3.1"
     glob2base "^0.0.12"
-    minimatch "^2.0.1"
+    minimatch "^3.0.2"
     ordered-read-streams "^0.1.0"
     through2 "^0.6.1"
     unique-stream "^1.0.0"
@@ -3329,7 +3329,7 @@ glob@^4.3.1:
   dependencies:
     inflight "^1.0.4"
     inherits "2"
-    minimatch "^2.0.1"
+    minimatch "^3.0.2"
     once "^1.3.0"
 
 glob@^5.0.3:
@@ -3339,7 +3339,7 @@ glob@^5.0.3:
   dependencies:
     inflight "^1.0.4"
     inherits "2"
-    minimatch "2 || 3"
+    minimatch "^3.0.2"
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
@@ -3362,7 +3362,7 @@ glob@~3.1.21:
   dependencies:
     graceful-fs "~1.2.0"
     inherits "1"
-    minimatch "~0.2.11"
+    minimatch "~3.0.2"
 
 global-modules@^1.0.0:
   version "1.0.0"
@@ -3429,7 +3429,7 @@ globule@~0.1.0:
   dependencies:
     glob "~3.1.21"
     lodash "~1.0.1"
-    minimatch "~0.2.11"
+    minimatch "~3.0.2"
 
 glogg@^1.0.0:
   version "1.0.2"
@@ -5306,27 +5306,12 @@ mimic-response@^1.0.0:
   resolved "http://registry.npm.taobao.org/mimic-response/download/mimic-response-1.0.1.tgz#4923538878eef42063cb8a3e3b0798781487ab1b"
   integrity sha1-SSNTiHju9CBjy4o+OweYeBSHqxs=
 
-"minimatch@2 || 3", minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.4, minimatch@~3.0.2:
+"minimatch@^3.0.2, minimatch@^3.0.4, minimatch@~3.0.2:
   version "3.0.4"
   resolved "http://registry.npm.taobao.org/minimatch/download/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   integrity sha1-UWbihkV/AzBgZL5Ul+jbsMPTIIM=
   dependencies:
     brace-expansion "^1.1.7"
-
-minimatch@^2.0.1:
-  version "2.0.10"
-  resolved "http://registry.npm.taobao.org/minimatch/download/minimatch-2.0.10.tgz#8d087c39c6b38c001b97fca7ce6d0e1e80afbac7"
-  integrity sha1-jQh8OcazjAAbl/ynzm0OHoCvusc=
-  dependencies:
-    brace-expansion "^1.0.0"
-
-minimatch@~0.2.11:
-  version "0.2.14"
-  resolved "http://registry.npm.taobao.org/minimatch/download/minimatch-0.2.14.tgz#c74e780574f63c6f9a090e90efbe6ef53a6a756a"
-  integrity sha1-x054BXT2PG+aCQ6Q775u9TpqdWo=
-  dependencies:
-    lru-cache "2"
-    sigmund "~1.0.0"
 
 minimist@0.0.8:
   version "0.0.8"
@@ -5396,7 +5381,7 @@ multimatch@^2.0.0:
     array-differ "^1.0.0"
     array-union "^1.0.1"
     arrify "^1.0.0"
-    minimatch "^3.0.0"
+    minimatch "^3.0.2"
 
 multipipe@^0.1.0, multipipe@^0.1.2:
   version "0.1.2"

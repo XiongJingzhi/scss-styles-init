@@ -22,10 +22,12 @@ body {
   clear: both;
 }
 
+// 1px 边框
 .border-x {
   @include border-1px();
 }
 
+// 1px 边框
 .border-top-1px,
 .border-right-1px,
 .border-bottom-1px,
@@ -43,7 +45,7 @@ body {
 
 .border-top-1px {
   &::before {
-    border-top: 1PX solid $color-row-line;
+    border-top: 1px solid $color-row-line;
     left: 0;
     top: 0;
     width: 100%;
@@ -53,7 +55,7 @@ body {
 
 .border-right-1px {
   &::after {
-    border-right: 1PX solid $color-col-line;
+    border-right: 1px solid $color-col-line;
     top: 0;
     right: 0;
     height: 100%;
@@ -63,7 +65,7 @@ body {
 
 .border-bottom-1px {
   &::after {
-    border-bottom: 1PX solid $color-row-line;
+    border-bottom: 1px solid $color-row-line;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -73,7 +75,7 @@ body {
 
 .border-left-1px {
   &::before {
-    border-left: 1PX solid $color-col-line;
+    border-left: 1px solid $color-col-line;
     top: 0;
     left: 0;
     height: 100%;
@@ -85,28 +87,28 @@ body {
   .border-top-1px {
     &::before {
       width: 200%;
-      transform: scale(.5);
+      transform: scale(0.5);
     }
   }
 
   .border-right-1px {
     &::after {
       height: 200%;
-      transform: scale(.5);
+      transform: scale(0.5);
     }
   }
 
   .border-bottom-1px {
     &::after {
       width: 200%;
-      transform: scale(.5);
+      transform: scale(0.5);
     }
   }
 
   .border-left-1px {
     &::before {
       height: 200%;
-      transform: scale(.5);
+      transform: scale(0.5);
     }
   }
 }
@@ -115,33 +117,33 @@ body {
   .border-top-1px {
     &::before {
       width: 300%;
-      transform: scale(.333);
+      transform: scale(0.333);
     }
   }
-
 
   .border-right-1px {
     &::after {
       height: 300%;
-      transform: scale(.333);
+      transform: scale(0.333);
     }
   }
 
   .border-bottom-1px {
     &::after {
       width: 300%;
-      transform: scale(.333);
+      transform: scale(0.333);
     }
   }
 
   .border-left-1px {
     &::before {
       height: 300%;
-      transform: scale(.333);
+      transform: scale(0.333);
     }
   }
 }
 
+// 图片覆盖, 比例不变
 @mixin img-wrapper($width: 50px, $height: 50px) {
   width: $width;
   height: $height;
@@ -155,6 +157,7 @@ body {
   }
 }
 
+// 背景图片覆盖, 比例不变
 @mixin img-background($width: 50px, $height: 50px, $url: '../images/3.jpg') {
   width: $width;
   height: $height;
@@ -166,6 +169,7 @@ body {
   background-size: cover;
 }
 
+// 文字省略效果
 @mixin text-ellipsis($num: 1, $width: 90%) {
   width: $width;
   overflow: hidden;

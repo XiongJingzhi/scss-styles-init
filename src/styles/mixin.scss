@@ -41,9 +41,10 @@
   }
 }
 
+// flex ie bug fix
 @mixin flex-fix() {
   flex: 1;
-  flex-basis: 0.000000001px;
+  flex-basis: 1e-9px;
   width: 1%;
 }
 
@@ -70,6 +71,7 @@
   }
 }
 
+// 分辨率自适应 背景图片
 @mixin bg-image($url, $ext:".png") {
   background-image: url($url + "@2x" + $ext);
 
