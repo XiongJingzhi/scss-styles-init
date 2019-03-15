@@ -45,7 +45,7 @@ body {
 
 .border-top-1px {
   &::before {
-    border-top: 1px solid $color-row-line;
+    border-top: 1PX solid $color-row-line;
     left: 0;
     top: 0;
     width: 100%;
@@ -55,7 +55,7 @@ body {
 
 .border-right-1px {
   &::after {
-    border-right: 1px solid $color-col-line;
+    border-right: 1PX solid $color-col-line;
     top: 0;
     right: 0;
     height: 100%;
@@ -65,7 +65,7 @@ body {
 
 .border-bottom-1px {
   &::after {
-    border-bottom: 1px solid $color-row-line;
+    border-bottom: 1PX solid $color-row-line;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -75,7 +75,7 @@ body {
 
 .border-left-1px {
   &::before {
-    border-left: 1px solid $color-col-line;
+    border-left: 1PX solid $color-col-line;
     top: 0;
     left: 0;
     height: 100%;
